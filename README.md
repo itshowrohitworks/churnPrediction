@@ -37,7 +37,8 @@ churnPrediction/
 │
 ├── notebooks/
 │ └── datasets/
-│ ├── Churn_Modelling.csv # Original dataset
+│ │   ├── Churn_Modelling.csv # Original dataset
+│ │   └── datafile.zip # Dataset archive
 │ ├── X_data.csv # Processed input features
 │ ├── y_data.csv # Target labels
 │ ├── data.ipynb # Data preprocessing & EDA
@@ -45,11 +46,9 @@ churnPrediction/
 │ ├── prediction.ipynb # Inference using saved models
 │ ├── gender_label.pkl # Label encoder for Gender
 │ ├── geography_label.pkl # Label encoder for Geography
-│ ├── scaler.pkl # Feature scaler
-│ └── datafile.zip # Dataset archive
-│
-├── requirements.txt
-├── .gitignore
+│ └── scaler.pkl # Feature scaler
+│── requirements.txt
+│── .gitignore
 └── README.md
 ```
 ---
